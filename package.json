@@ -7,5 +7,9 @@
     "start": "node ."
   },
   "author": "Íñigo Marquínez",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3"
+  }
 }
