@@ -17,7 +17,11 @@ jobs:
 
     steps:
       - uses: google-github-actions/release-please-action@v3
+        id: release
         with:
           token: ${{ secrets.RELEASE_PLEASE }}
           release-type: node
           package-name: howto-release-please
+      - run: echo "A release was created."
+        if: ${{ steps.release.outputs.releases_created }}
+
