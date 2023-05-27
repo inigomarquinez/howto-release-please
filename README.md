@@ -4,12 +4,10 @@ POC to use Google's [release-please github action](https://github.com/google-git
 
 ## Take into account
 
-- It is highly recommend that you use squash-merges when merging pull requests. (ser more details [here](https://github.com/googleapis/release-please#linear-git-commit-history-use-squash-merge)).
+- It is highly recommend that you use squash-merges when merging pull requests (ser more details [here](https://github.com/googleapis/release-please#linear-git-commit-history-use-squash-merge)).
 
     ![squash and merge](/assets/squash-and-merge.png)
 
-
-- :wrench: (chore)
 ## Useful links
 
 - [Release Please](https://github.com/googleapis/release-please)
