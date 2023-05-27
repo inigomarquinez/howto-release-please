@@ -4,12 +4,14 @@
   "description": "POC to use Google's release-please github action to create releases",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "prepare": "husky install"
   },
   "author": "Íñigo Marquínez",
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",
-    "@commitlint/config-conventional": "^17.6.3"
+    "@commitlint/config-conventional": "^17.6.3",
+    "husky": "^7.0.0"
   }
 }
