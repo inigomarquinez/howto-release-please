@@ -1,0 +1,11 @@
+{
+  "name": "howto-release-please",
+  "version": "1.0.0",
+  "description": "POC to use Google's release-please github action to create releases",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Íñigo Marquínez",
+  "license": "MIT"
+}
