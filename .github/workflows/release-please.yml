@@ -23,6 +23,20 @@ jobs:
           release-type: node
           package-name: howto-release-please
           changelog-types: '[{ "type": "feat", "section": "🆕 Features", "hidden": false },{ "type": "fix", "section": "🐛 Bug Fixes", "hidden": false },{ "type": "chore", "section": "🔧 Others", "hidden": false },{ "type": "docs", "section": "📝 Docs", "hidden": false },{ "type": "style", "section": "🎨 Styling", "hidden": false },{ "type": "refactor", "section": "🔄 Code Refactoring", "hidden": false },{ "type": "perf", "section": "📈 Performance Improvements", "hidden": false },{ "type": "test", "section": "🔬 Tests", "hidden": false },{ "type": "ci", "section": "☁️ CI", "hidden": false }]'
-      - run: echo "A release was created."
-        if: ${{ steps.release.outputs.releases_created }}
+      # The logic below handles the npm publication:
+      - uses: actions/checkout@v3
+        # these if statements ensure that a publication only occurs when
+        # a new release is created:
+        if: ${{ steps.release.outputs.release_created }}
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          registry-url: 'https://registry.npmjs.org'
+        if: ${{ steps.release.outputs.release_created }}
+      - run: npm ci
+        if: ${{ steps.release.outputs.release_created }}
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH }}
+        if: ${{ steps.release.outputs.release_created }}
 
