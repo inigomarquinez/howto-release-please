@@ -2,4 +2,11 @@ const sayHello = (name) => {
   console.log(`Hello ${name}`);
 }
 
-sayHello('Iñigo');
+const sayGodbye = (name) => {
+  console.log(`Bye bye ${name}`);
+}
+
+module.exports = {
+  sayHello,
+  sayGodbye
+};
