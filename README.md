@@ -10,9 +10,15 @@ POC to use Google's [release-please github action](https://github.com/google-git
 
 ## Take into account
 
-- It is highly recommend that you use **squash-merges** when merging pull requests (ser more details [here](https://github.com/googleapis/release-please#linear-git-commit-history-use-squash-merge)).
+- It is highly recommended that you use **squash-merges** when merging pull requests (ser more details [here](https://github.com/googleapis/release-please#linear-git-commit-history-use-squash-merge)).
 
     ![squash and merge](/assets/squash-and-merge.png)
+
+- `RequestError [HttpError]: Error creating Pull Request: Resource not accessible by personal access token`
+    
+    This means that you need to add **read and write** access to the `Pull Requests` persmissions of your GitHub token. [see here](https://docs.github.com/en/rest/git/refs?apiVersion=2022-11-28#create-a-reference)
+
+    ![pull requests permission](/assets/pull-requests-permission.png)
 
 ## Useful links
 
@@ -21,3 +27,4 @@ POC to use Google's [release-please github action](https://github.com/google-git
 - [Conventional Commits](https://www.conventionalcommits.org)
 - [commitlint](https://commitlint.js.org/#/)
 - [husky](https://typicode.github.io/husky/)
+- [Permissions required for fine-grained personal access tokens](https://docs.github.com/en/rest/overview/permissions-required-for-fine-grained-personal-access-tokens?apiVersion=2022-11-28)
