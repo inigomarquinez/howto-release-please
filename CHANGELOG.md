@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.0.1](https://github.com/inigomarquinez/howto-release-please/compare/v1.0.0...v1.0.1) (2023-05-29)
+
+
+### ☁️ CI
+
+* add github action to validate PR title format ([#14](https://github.com/inigomarquinez/howto-release-please/issues/14)) ([f72e137](https://github.com/inigomarquinez/howto-release-please/commit/f72e137a95de8d2000fbd28a5df6f513f7e5f353))
+
+
+### 📝 Docs
+
+* add a reference to semantic-pull-request GitHub action ([20a37d3](https://github.com/inigomarquinez/howto-release-please/commit/20a37d343baef30448b858badf5e02e5cf23da69))
+* fix images paths so they are displayed in npm ([#16](https://github.com/inigomarquinez/howto-release-please/issues/16)) ([20a37d3](https://github.com/inigomarquinez/howto-release-please/commit/20a37d343baef30448b858badf5e02e5cf23da69))
+
 ## 1.0.0 (2023-05-28)
 
 
