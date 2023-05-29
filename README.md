@@ -24,7 +24,20 @@ POC to use Google's [release-please github action](https://github.com/google-git
       </figure>
     * The repository needs to have access to the GitHub token so it can be read from the action using the `secrets` context. Read [this](https://docs.github.com/en/actions/security-guides/encrypted-secrets) for more information on configuring encrypted secrets.
 
-3. Commits must follow the **[Conventional Commits](https://www.conventionalcommits.org/)** convention. You can enforce this by using tools such as [commitlint](https://commitlint.js.org/) and [husky](https://typicode.github.io/husky/). 
+3. Commits must follow the **[Conventional Commits](https://www.conventionalcommits.org/)** convention. You can enforce this by using tools such as [commitlint](https://commitlint.js.org/) and [husky](https://typicode.github.io/husky/).
+
+    But apart from the commits, what is really important is that the **pull request title** follows the convention. This is because release-please uses the pull request title to determine the release type. You can use [this GitHub action](https://github.com/marketplace/actions/semantic-pull-request) to ensure it. You can find an example in this same repository. Take a look at the [./.github/workflows/lint-pull-request.yml](./.github/workflows/lint-pull-request.yml) file.
+
+    <div style="display: grid; grid-auto-flow: column; column-gap: 20px; align-items: center">
+      <figure>
+        <img src="./assets/invalid-pull-request-title.png" alt="Invalid pull request" style="width:100%" />
+        <figcaption style="text-align: center; font-style: italic;">Invalid pull request</figcaption>
+      </figure>
+      <figure>
+        <img src="./assets/valid-pull-request-title.png" alt="Valid pull request" style="width:100%" />
+        <figcaption style="text-align: center; font-style: italic;">Valid pull request</figcaption>
+      </figure>
+    </div>
 
 ### Steps
 
@@ -48,7 +61,7 @@ With a few additions, the Release Please action can be made to publish to npm wh
 
 ## 👀 Example
 
-You can find an example in this same repository. Take a look at the [.github/workflows/release-please.yml](.github/workflows/release-please.yml) file.
+You can find an example in this same repository. Take a look at the [.github/workflows/release-please.yml](./.github/workflows/release-please.yml) file.
 
 ## 🔗 Useful links
 
