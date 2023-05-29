@@ -9,20 +9,27 @@ POC to use Google's [release-please github action](https://github.com/google-git
 1. It is highly recommended that you use **squash-merges** when merging pull requests.
     * Read [this](https://github.com/googleapis/release-please#linear-git-commit-history-use-squash-merge) if you want to know **why**.
     * Read [this](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-squashing-for-pull-requests) if you want to know **how** to do it.
-      ![squash and merge](/assets/squash-and-merge.png)
+      <figure>
+        <img src="./assets/squash-and-merge.png" alt="Squash and merge" style="width:100%">
+        <figcaption style="text-align: center; font-style: italic;">Squash and merge in GitHub</figcaption>
+      </figure>
 
 2. release-please requires a **GitHub token** to access the GitHub API.
     * Read [this](https://github.com/google-github-actions/release-please-action#github-credentials) if you want to to know **why**.
-    * Read [this](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) if you want to know **how**.
+    * Read [this](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) if you want to know **how** to do it.
     * Your GitHub token needs to have at least *Read and Write* access to `code` and `pull requests`.
-      ![GitHub token permissions](/assets/github-token-permissions.png)
+      <figure>
+        <img src="./assets/github-token-permissions.png" alt="Github token permissions" style="width:100%">
+        <figcaption style="text-align: center; font-style: italic;">Github token permissions</figcaption>
+      </figure>
     * The repository needs to have access to the GitHub token so it can be read from the action using the `secrets` context. Read [this](https://docs.github.com/en/actions/security-guides/encrypted-secrets) for more information on configuring encrypted secrets.
 
-3. Commits must follow the **[Conventional Commits](https://www.conventionalcommits.org/)** convention. You can enforce this by using tools such as [commitlint](https://commitlint.js.org/) and [husky](https://typicode.github.io/husky/).
+3. Commits must follow the **[Conventional Commits](https://www.conventionalcommits.org/)** convention. You can enforce this by using tools such as [commitlint](https://commitlint.js.org/) and [husky](https://typicode.github.io/husky/). 
 
 ### Steps
 
 1. Follow the [steps](https://github.com/google-github-actions/release-please-action#setting-up-this-action) described in the official documentation of the release-please action.
+
 2. Remember that you can customize the GitHub action by using different [configuration parameters](https://github.com/google-github-actions/release-please-action#configuration).
 
     The most important ones are `token`, `release-type` and `package-name`.
