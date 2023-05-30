@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/inigomarquinez/howto-release-please/compare/v2.0.0...v2.0.1) (2023-05-30)
+
+
+### ☁️ CI
+
+* fix publish to npm using namespace ([#21](https://github.com/inigomarquinez/howto-release-please/issues/21)) ([b88b304](https://github.com/inigomarquinez/howto-release-please/commit/b88b30401991196a97bee691d77246944c477533))
+
 ## [2.0.0](https://github.com/inigomarquinez/howto-release-please/compare/v1.0.2...v2.0.0) (2023-05-30)
 
 
