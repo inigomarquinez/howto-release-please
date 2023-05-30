@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/inigomarquinez/howto-release-please/compare/v1.0.2...v2.0.0) (2023-05-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* scope package with @inigomarquinez namespace ([#19](https://github.com/inigomarquinez/howto-release-please/issues/19))
+
+### 🔧 Others
+
+* scope package with [@inigomarquinez](https://github.com/inigomarquinez) namespace ([#19](https://github.com/inigomarquinez/howto-release-please/issues/19)) ([b77e52e](https://github.com/inigomarquinez/howto-release-please/commit/b77e52eb5e278bd91d7012c8c5924454a54d98d5))
+
 ## [1.0.2](https://github.com/inigomarquinez/howto-release-please/compare/v1.0.1...v1.0.2) (2023-05-30)
 
 
