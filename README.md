@@ -10,7 +10,7 @@ POC to use Google's [release-please github action](https://github.com/google-git
     * Read [this](https://github.com/googleapis/release-please#linear-git-commit-history-use-squash-merge) if you want to know **why**.
     * Read [this](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-squashing-for-pull-requests) if you want to know **how** to do it.
       <figure>
-        <img src="./assets/squash-and-merge.png" alt="Squash and merge" style="width:100%">
+        <img src="https://raw.githubusercontent.com/inigomarquinez/howto-release-please/main/assets/squash-and-merge.png" alt="Squash and merge" style="width:100%">
         <figcaption style="text-align: center; font-style: italic;">Squash and merge in GitHub</figcaption>
       </figure>
 
@@ -19,23 +19,23 @@ POC to use Google's [release-please github action](https://github.com/google-git
     * Read [this](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) if you want to know **how** to do it.
     * Your GitHub token needs to have at least *Read and Write* access to `code` and `pull requests`.
       <figure>
-        <img src="./assets/github-token-permissions.png" alt="Github token permissions" style="width:100%">
+        <img src="https://raw.githubusercontent.com/inigomarquinez/howto-release-please/main/assets/github-token-permissions.png" alt="Github token permissions" style="width:100%">
         <figcaption style="text-align: center; font-style: italic;">Github token permissions</figcaption>
       </figure>
     * The repository needs to have access to the GitHub token so it can be read from the action using the `secrets` context. Read [this](https://docs.github.com/en/actions/security-guides/encrypted-secrets) for more information on configuring encrypted secrets.
 
 3. Commits must follow the **[Conventional Commits](https://www.conventionalcommits.org/)** convention. You can enforce this by using tools such as [commitlint](https://commitlint.js.org/) and [husky](https://typicode.github.io/husky/).
 
-    But apart from the commits, what is really important is that the **pull request title** follows the convention. This is because release-please uses the pull request title to determine the release type. You can use [this GitHub action](https://github.com/marketplace/actions/semantic-pull-request) to ensure it. You can find an example in this same repository. Take a look at the [./.github/workflows/lint-pull-request.yml](./.github/workflows/lint-pull-request.yml) file.
+    But apart from the commits, what is really important is that the **pull request title** follows the convention. This is because release-please uses the pull request title to determine the release type. You can use [this GitHub action](https://github.com/marketplace/actions/semantic-pull-request) to ensure it. You can find an example in this same repository. Take a look at the [./.github/workflows/lint-pull-request.yml](https://github.com/inigomarquinez/howto-release-please/blob/main/.github/workflows/lint-pull-request.yml) file.
 
     <div style="display: grid; grid-auto-flow: column; column-gap: 20px; align-items: center">
       <figure>
-        <img src="./assets/invalid-pull-request-title.png" alt="Invalid pull request" style="width:100%" />
-        <figcaption style="text-align: center; font-style: italic;">Invalid pull request</figcaption>
+        <img src="https://raw.githubusercontent.com/inigomarquinez/howto-release-please/main/assets/invalid-pull-request-title.png" alt="Invalid pull request" style="width:100%" />
+        <figcaption style="text-align: center; font-style: italic;">Invalid pull request title format</figcaption>
       </figure>
       <figure>
-        <img src="./assets/valid-pull-request-title.png" alt="Valid pull request" style="width:100%" />
-        <figcaption style="text-align: center; font-style: italic;">Valid pull request</figcaption>
+        <img src="https://raw.githubusercontent.com/inigomarquinez/howto-release-please/main/assets/valid-pull-request-title.png" alt="Valid pull request" style="width:100%" />
+        <figcaption style="text-align: center; font-style: italic;">Valid pull request title format</figcaption>
       </figure>
     </div>
 
@@ -61,7 +61,7 @@ With a few additions, the Release Please action can be made to publish to npm wh
 
 ## 👀 Example
 
-You can find an example in this same repository. Take a look at the [.github/workflows/release-please.yml](./.github/workflows/release-please.yml) file.
+You can find an example in this same repository. Take a look at the [.github/workflows/release-please.yml](https://github.com/inigomarquinez/howto-release-please/blob/main/.github/workflows/release-please.yml) file.
 
 ## 🔗 Useful links
 
