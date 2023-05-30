@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.2](https://github.com/inigomarquinez/howto-release-please/compare/v1.0.1...v1.0.2) (2023-05-30)
+
+
+### ☁️ CI
+
+* split release-please github action in 2 jobs ([#17](https://github.com/inigomarquinez/howto-release-please/issues/17)) ([400a7a9](https://github.com/inigomarquinez/howto-release-please/commit/400a7a97b5e43aa7836437540b5be3e07ae0c7e6))
+
+
+### 📝 Docs
+
+* fix links in `README` file ([400a7a9](https://github.com/inigomarquinez/howto-release-please/commit/400a7a97b5e43aa7836437540b5be3e07ae0c7e6))
+
 ## [1.0.1](https://github.com/inigomarquinez/howto-release-please/compare/v1.0.0...v1.0.1) (2023-05-29)
 
 
