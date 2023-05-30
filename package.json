@@ -1,5 +1,5 @@
 {
-  "name": "howto-release-please",
+  "name": "@inigomarquinez/howto-release-please",
   "version": "1.0.2",
   "description": "POC to use Google's release-please github action to create releases",
   "type": "commonjs",
