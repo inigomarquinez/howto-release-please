@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.0.2](https://github.com/inigomarquinez/howto-release-please/compare/v2.0.1...v2.0.2) (2023-06-12)
+
+
+### 🔧 Others
+
+* removed the need for special GH token ([#23](https://github.com/inigomarquinez/howto-release-please/issues/23)) ([53bf88b](https://github.com/inigomarquinez/howto-release-please/commit/53bf88b934dfbf07e15f62f52af586d5899d8fc9))
+
+
+### 📝 Docs
+
+* update README to explain how to use the GITHUB_TOKEN secret ([#25](https://github.com/inigomarquinez/howto-release-please/issues/25)) ([a2ec9b3](https://github.com/inigomarquinez/howto-release-please/commit/a2ec9b380740e14304010840381a9dbb669c1c3d))
+
 ## [2.0.1](https://github.com/inigomarquinez/howto-release-please/compare/v2.0.0...v2.0.1) (2023-05-30)
 
 
