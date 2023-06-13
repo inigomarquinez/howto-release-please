@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.0.0](https://github.com/inigomarquinez/howto-release-please/compare/howto-release-please-v1.0.0...howto-release-please-v1.0.0) (2023-06-13)
+
+
+### 🔧 Others
+
+* **main:** release 1.0.0 ([#32](https://github.com/inigomarquinez/howto-release-please/issues/32)) ([1565d5b](https://github.com/inigomarquinez/howto-release-please/commit/1565d5b69e2d98f5bf27c0d34c77ee2884f4945e))
+* **main:** release 1.0.0 ([#36](https://github.com/inigomarquinez/howto-release-please/issues/36)) ([f5b0f3f](https://github.com/inigomarquinez/howto-release-please/commit/f5b0f3fbb5c81aeea426896bdd1e732287d73fb0))
+
+
+### ☁️ CI
+
+* add component and bootstrap-sha attributes ([#35](https://github.com/inigomarquinez/howto-release-please/issues/35)) ([b93f755](https://github.com/inigomarquinez/howto-release-please/commit/b93f7555b1287e19cec90391e6a045bdf149109f))
+* add monorepo-tags ([#33](https://github.com/inigomarquinez/howto-release-please/issues/33)) ([9b33a18](https://github.com/inigomarquinez/howto-release-please/commit/9b33a18dc9fc201c170e34e8b536330036a3a4f9))
+* replace component by monorepo-tags ([#37](https://github.com/inigomarquinez/howto-release-please/issues/37)) ([3beb3d9](https://github.com/inigomarquinez/howto-release-please/commit/3beb3d94a748f19602b7695e11bd1ad6ca95eea1))
+* test releasing a duplicated release ([#31](https://github.com/inigomarquinez/howto-release-please/issues/31)) ([a19fc93](https://github.com/inigomarquinez/howto-release-please/commit/a19fc93721588ae1c6e58ed2e61e98879c18aaac))
+
 ## [1.0.0](https://github.com/inigomarquinez/howto-release-please/compare/v2.0.3...v1.0.0) (2023-06-13)
 
 
