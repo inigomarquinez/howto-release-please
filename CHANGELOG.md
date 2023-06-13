@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.3](https://github.com/inigomarquinez/howto-release-please/compare/v2.0.2...v2.0.3) (2023-06-13)
+
+
+### ☁️ CI
+
+* add prefix to test how releases are created ([#26](https://github.com/inigomarquinez/howto-release-please/issues/26)) ([65c4397](https://github.com/inigomarquinez/howto-release-please/commit/65c4397c31d7d073dfeffb1e9c79790eb35ee029))
+* define tag-separator to add release prefix ([#27](https://github.com/inigomarquinez/howto-release-please/issues/27)) ([31b684c](https://github.com/inigomarquinez/howto-release-please/commit/31b684cccca04d23a50e5e6d0fc8dd0c61da1eb8))
+
 ## [2.0.2](https://github.com/inigomarquinez/howto-release-please/compare/v2.0.1...v2.0.2) (2023-06-12)
 
 
