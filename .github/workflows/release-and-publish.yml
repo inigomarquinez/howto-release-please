@@ -27,7 +27,7 @@ jobs:
           release-type: node
           package-name: 'howto-release-please'
           release-as: '1.0.0'
-          component: 'release-'
+          monorepo-tags: 'true'
           bootstrap-sha: '22d983000d51169d4ce3617da16234bd3d53b688'
           changelog-types: '[{ "type": "feat", "section": "🆕 Features", "hidden": false },{ "type": "fix", "section": "🐛 Bug Fixes", "hidden": false },{ "type": "chore", "section": "🔧 Others", "hidden": false },{ "type": "docs", "section": "📝 Docs", "hidden": false },{ "type": "style", "section": "🎨 Styling", "hidden": false },{ "type": "refactor", "section": "🔄 Code Refactoring", "hidden": false },{ "type": "perf", "section": "📈 Performance Improvements", "hidden": false },{ "type": "test", "section": "🔬 Tests", "hidden": false },{ "type": "ci", "section": "☁️ CI", "hidden": false }]'
 
