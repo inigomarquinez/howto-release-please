@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.0](https://github.com/inigomarquinez/howto-release-please/compare/v2.0.3...v1.0.0) (2023-06-13)
+
+
+### ☁️ CI
+
+* add monorepo-tags attribute ([#29](https://github.com/inigomarquinez/howto-release-please/issues/29)) ([22d9830](https://github.com/inigomarquinez/howto-release-please/commit/22d983000d51169d4ce3617da16234bd3d53b688))
+* test releasing a duplicated release ([#31](https://github.com/inigomarquinez/howto-release-please/issues/31)) ([a19fc93](https://github.com/inigomarquinez/howto-release-please/commit/a19fc93721588ae1c6e58ed2e61e98879c18aaac))
+
 ## [2.0.3](https://github.com/inigomarquinez/howto-release-please/compare/v2.0.2...v2.0.3) (2023-06-13)
 
 
