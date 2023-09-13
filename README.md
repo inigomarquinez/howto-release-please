@@ -1,4 +1,4 @@
-# 🤔 HOW TO - Release please
+# 🤔 HOW TO - Release please!
 
 POC to use Google's [release-please github action](https://github.com/google-github-actions/release-please-action) to create releases.
 
