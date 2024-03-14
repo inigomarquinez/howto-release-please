@@ -1,6 +1,6 @@
 {
   "name": "howto-release-please",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "POC to use Google's release-please github action to create releases",
   "type": "commonjs",
   "main": "index.js",
