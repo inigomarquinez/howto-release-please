@@ -6,13 +6,13 @@
   "main": "index.js",
   "scripts": {
     "start": "node .",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "author": "Íñigo Marquínez",
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/cli": "^17.6.3",
-    "@commitlint/config-conventional": "^17.6.3",
-    "husky": "^7.0.0"
+    "@commitlint/cli": "^19.1.0",
+    "@commitlint/config-conventional": "^19.1.0",
+    "husky": "^9.0.11"
   }
 }
