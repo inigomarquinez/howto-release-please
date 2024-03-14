@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.3](https://github.com/inigomarquinez/howto-release-please/compare/howto-release-please-v2.0.2...howto-release-please-v2.0.3) (2024-03-14)
+
+
+### ☁️ CI
+
+* fix job permissions in rlease and publish github action ([#49](https://github.com/inigomarquinez/howto-release-please/issues/49)) ([b49a702](https://github.com/inigomarquinez/howto-release-please/commit/b49a702155de7e17defebdec7d7de3daf966a486))
+
 ## [2.0.2](https://github.com/inigomarquinez/howto-release-please/compare/howto-release-please-v2.0.1...howto-release-please-v2.0.2) (2024-03-14)
 
 
