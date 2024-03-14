@@ -12,6 +12,7 @@ jobs:
     permissions:
       contents: write # to create release commit
       pull-requests: write # to create release PR
+      id-token: write # to allow npm publish provenance generation
 
     runs-on: ubuntu-latest
 
