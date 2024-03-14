@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.0.0](https://github.com/inigomarquinez/howto-release-please/compare/howto-release-please-v1.0.0...howto-release-please-v2.0.0) (2024-03-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* update github actions ([#40](https://github.com/inigomarquinez/howto-release-please/issues/40))
+
+### ☁️ CI
+
+* add release-please manifest file ([#42](https://github.com/inigomarquinez/howto-release-please/issues/42)) ([a5f4a30](https://github.com/inigomarquinez/howto-release-please/commit/a5f4a307325ecd21590b2426cce86321db4165e8))
+* fix release-please manifest and config ([#43](https://github.com/inigomarquinez/howto-release-please/issues/43)) ([2f8f2aa](https://github.com/inigomarquinez/howto-release-please/commit/2f8f2aa58d2c04895ba7678f3d23300104b5539c))
+* release-please config ([#41](https://github.com/inigomarquinez/howto-release-please/issues/41)) ([83e07a6](https://github.com/inigomarquinez/howto-release-please/commit/83e07a6eec4fd911ee2192d1db2f047785bf0c66))
+* update github actions ([#40](https://github.com/inigomarquinez/howto-release-please/issues/40)) ([00484f6](https://github.com/inigomarquinez/howto-release-please/commit/00484f63bccfc0b6181497f64ce758093a290be5))
+
 ## [1.0.0](https://github.com/inigomarquinez/howto-release-please/compare/howto-release-please-v1.0.0...howto-release-please-v1.0.0) (2023-06-13)
 
 
