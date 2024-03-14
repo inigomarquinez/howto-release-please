@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.4](https://github.com/inigomarquinez/howto-release-please/compare/howto-release-please-v2.0.3...howto-release-please-v2.0.4) (2024-03-14)
+
+
+### 🐛 Bug Fixes
+
+* add repository url in package.json for provenance ([#51](https://github.com/inigomarquinez/howto-release-please/issues/51)) ([5300c4f](https://github.com/inigomarquinez/howto-release-please/commit/5300c4f27719f9d0781be22197c637d99c798482))
+
 ## [2.0.3](https://github.com/inigomarquinez/howto-release-please/compare/howto-release-please-v2.0.2...howto-release-please-v2.0.3) (2024-03-14)
 
 
