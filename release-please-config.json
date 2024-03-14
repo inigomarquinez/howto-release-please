@@ -1,8 +1,8 @@
 {
-  "package-name": "howto-release-please",
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
   "release-type": "node",
-  "monorepo-tags": true,
-  "changelog-types": [
+  "pull-request-footer": "This PR was generated with [Release Please](https://github.com/googleapis/release-please).",
+  "changelog-sections": [
     {
       "type": "feat",
       "section": "🆕 Features",
@@ -48,5 +48,11 @@
       "section": "☁️ CI",
       "hidden": false
     }
-  ]
+  ],
+  "packages": {
+    ".": {
+      "package-name": "howto-release-please",
+      "monorepo-tags": true
+    }
+  }
 }
