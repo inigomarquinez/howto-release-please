@@ -1,4 +1,4 @@
-name: release and publish
+name: Release and publish
 
 on:
   push:
@@ -19,40 +19,37 @@ jobs:
       release_created: ${{ steps.release.outputs.release_created }}
 
     steps:
-      - name: Create or update release
-        uses: google-github-actions/release-please-action@v3
+      - name: 🆕 Create or update release
+        uses: google-github-actions/release-please-action@a37ac6e4f6449ce8b3f7607e4d97d0146028dc0b # 4.1.0
         id: release
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          release-type: node
-          package-name: 'howto-release-please'
-          release-as: '1.0.0'
-          monorepo-tags: 'true'
-          bootstrap-sha: '22d983000d51169d4ce3617da16234bd3d53b688'
-          changelog-types: '[{ "type": "feat", "section": "🆕 Features", "hidden": false },{ "type": "fix", "section": "🐛 Bug Fixes", "hidden": false },{ "type": "chore", "section": "🔧 Others", "hidden": false },{ "type": "docs", "section": "📝 Docs", "hidden": false },{ "type": "style", "section": "🎨 Styling", "hidden": false },{ "type": "refactor", "section": "🔄 Code Refactoring", "hidden": false },{ "type": "perf", "section": "📈 Performance Improvements", "hidden": false },{ "type": "test", "section": "🔬 Tests", "hidden": false },{ "type": "ci", "section": "☁️ CI", "hidden": false }]'
 
   npm-publish:
     runs-on: ubuntu-latest
-
     needs: [release-please]
-
     # this if statements ensure that a publication only occurs when a new release is created:
     if: ${{ needs.release-please.outputs.release_created }}
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: 🔐 Harden Runner
+        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
         with:
-          node-version: 18
+          egress-policy: audit
+
+      - name: Checkout
+        uses: 🔔 actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # 4.1.1.
+
+      - name: ⚙️ Setup Node.js
+        uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # 4.0.2
+        with:
+          node-version: 20
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Install dependencies
+      - name: 📦 Install dependencies
         run: npm ci
 
-      - name: Publish to npm
-        run: npm publish --access public
+      - name: 🚀 Publish to npm
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH }}
