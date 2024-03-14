@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2](https://github.com/inigomarquinez/howto-release-please/compare/howto-release-please-v2.0.1...howto-release-please-v2.0.2) (2024-03-14)
+
+
+### ☁️ CI
+
+* fix release and publish gh action permissions ([#47](https://github.com/inigomarquinez/howto-release-please/issues/47)) ([bb3aab3](https://github.com/inigomarquinez/howto-release-please/commit/bb3aab3119994faacd879dfa312e8de0f6f33728))
+
 ## [2.0.1](https://github.com/inigomarquinez/howto-release-please/compare/howto-release-please-v2.0.0...howto-release-please-v2.0.1) (2024-03-14)
 
 
