@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.0.0](https://github.com/inigomarquinez/howto-release-please/compare/howto-release-please-v2.0.4...howto-release-please-v1.0.0) (2024-03-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* scoped package ([#53](https://github.com/inigomarquinez/howto-release-please/issues/53))
+
+### ☁️ CI
+
+* scoped package ([#53](https://github.com/inigomarquinez/howto-release-please/issues/53)) ([4617688](https://github.com/inigomarquinez/howto-release-please/commit/461768861d728c004e029d7333bf24ebc6367578))
+
 ## [2.0.4](https://github.com/inigomarquinez/howto-release-please/compare/howto-release-please-v2.0.3...howto-release-please-v2.0.4) (2024-03-14)
 
 
