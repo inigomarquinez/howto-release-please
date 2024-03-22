@@ -51,8 +51,8 @@
   ],
   "packages": {
     ".": {
-      "package-name": "howto-release-please",
-      "monorepo-tags": true
+      "include-component-in-tag": true,
+      "release-as": "1.0.0"
     }
   }
 }
