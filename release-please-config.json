@@ -51,6 +51,7 @@
   ],
   "packages": {
     ".": {
+      "packageName": "@inigomarquinez/howto-release-please",
       "include-component-in-tag": true,
       "release-as": "1.0.0"
     }
