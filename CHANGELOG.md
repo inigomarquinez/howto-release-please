@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.0.0](https://github.com/inigomarquinez/howto-release-please/compare/howto-release-please-v2.0.4...howto-release-please-v1.0.0) (2024-03-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* configure release process ([#55](https://github.com/inigomarquinez/howto-release-please/issues/55))
+* scoped package ([#53](https://github.com/inigomarquinez/howto-release-please/issues/53))
+
+### 🔧 Others
+
+* remove config option as it's the default value ([#57](https://github.com/inigomarquinez/howto-release-please/issues/57)) ([0b1d85f](https://github.com/inigomarquinez/howto-release-please/commit/0b1d85f9166c5b351dc0f372fda9d3ec2620738f))
+
+
+### ☁️ CI
+
+* configure release process ([#55](https://github.com/inigomarquinez/howto-release-please/issues/55)) ([575c5a4](https://github.com/inigomarquinez/howto-release-please/commit/575c5a4a1d8e8744dd5dd4c6f9aef767ab4688d7))
+* scoped package ([#53](https://github.com/inigomarquinez/howto-release-please/issues/53)) ([4617688](https://github.com/inigomarquinez/howto-release-please/commit/461768861d728c004e029d7333bf24ebc6367578))
+
 ## [2.0.4](https://github.com/inigomarquinez/howto-release-please/compare/howto-release-please-v2.0.3...howto-release-please-v2.0.4) (2024-03-14)
 
 
