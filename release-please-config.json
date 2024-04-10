@@ -51,7 +51,8 @@
   ],
   "packages": {
     ".": {
-      "packageName": "@inigomarquinez/howto-release-please",
+      "component": "@inigomarquinez/howto-release-please",
+      "releaseType": "node",
       "release-as": "1.0.0"
     }
   }
