@@ -52,8 +52,7 @@
   "packages": {
     ".": {
       "component": "@inigomarquinez/howto-release-please",
-      "releaseType": "node",
-      "release-as": "1.0.0"
+      "releaseType": "node"
     }
   }
 }
