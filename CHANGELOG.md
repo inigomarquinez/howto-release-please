@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/inigomarquinez/howto-release-please/compare/@inigomarquinez/howto-release-please-v1.0.0...@inigomarquinez/howto-release-please-v1.0.1) (2024-04-10)
+
+
+### ☁️ CI
+
+* remove release-as verion ([#62](https://github.com/inigomarquinez/howto-release-please/issues/62)) ([c97f272](https://github.com/inigomarquinez/howto-release-please/commit/c97f272f81c2c999caf779d70003f8aaad4f344f))
+
 ## [1.0.0](https://github.com/inigomarquinez/howto-release-please/compare/@inigomarquinez/howto-release-please-v1.0.0...@inigomarquinez/howto-release-please-v1.0.0) (2024-04-10)
 
 
